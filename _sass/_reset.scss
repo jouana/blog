@@ -111,3 +111,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}

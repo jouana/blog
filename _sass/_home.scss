@@ -1,0 +1,29 @@
+.blog--home-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog--home-card {
+    position: relative;
+    border: 1px solid #888888;
+    min-width: 355px;
+    max-width: 380px;
+    height: 370px;
+    margin: 1em;
+    text-align: center;
+
+    & img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.blog--home-card-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 0.3em;
+    color: #fff;
+    font-family: Lobster;
+    font-size: 2em;
+}   

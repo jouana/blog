@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="blog--home-body">
+    {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <div class="blog--home-card">
+                <img src="/assets/images/{{ post.card }}" alt="{{post.title}}" />
+                <div class="blog--home-card-title">{{ post.title }}</div>
+
+            </div>
+        </a>
+    {% endfor %}
+</div>
