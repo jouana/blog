@@ -3,7 +3,8 @@ $header-title-color: rgb(255, 0, 136);
 $header-link-font-color: #8fc3ff;
 
 .blog--header {
-    display: flex;;
+    display: flex;
+    position: absolute;
     width: 100%;
     height: 4em;
     padding: 0 2.5em;
